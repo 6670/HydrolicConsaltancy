@@ -1,0 +1,24 @@
+﻿<nav class="navbar navbar-inverse navbar-fixed-left">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src=@Url.Content("~/content/img/logo.png") class="brand"></a>
+            <a class="navbar-brand" href="index.html"><img src=@Url.Content("~/content/img/relogo.png") class="respbrand"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="@Url.Action("Index","Home")">Home</a></li>
+                <li><a href="@Url.Action("aboutus","Home")">About</a></li>
+                <li><a href="@Url.Action("Investor","Home")">You are an investor</a></li>
+                <li><a href="@Url.Action("Enterpreneur","Home")">You are an entrepreneur</a></li>
+                <li><a href="@Url.Action("News","Home")">News</a></li>
+                <li><a href="@Url.Action("ContactUs","Home")">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
